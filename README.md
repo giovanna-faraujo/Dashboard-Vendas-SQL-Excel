@@ -36,7 +36,7 @@ O dashboard permite a gestão a **correlacionar as métricas do topo do funil** 
 
 ---
 
-## Detalhes Técnicos
+### Detalhes Técnicos
 
 * **Ferramentas:** Microsoft Excel (Análise e Visualização) e SQL (Extração de Dados).
 * **Base de Dados:** Dados tabulares de Vendas e Leads.
