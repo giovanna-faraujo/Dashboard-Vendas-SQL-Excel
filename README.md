@@ -10,8 +10,6 @@ Este projeto demonstra a capacidade de realizar a **extração, transformação 
 
 ---
 
-## Destaques para Recrutadores
-
 ### O que foi avaliado?
 
 A análise é uma visão multifacetada da performance do funil de vendas, focada em:
