@@ -11,6 +11,16 @@ Este projeto demonstra a capacidade de realizar a **extração, transformação 
 <img width="1491" height="779" alt="image" src="https://github.com/user-attachments/assets/82f8b820-abc0-4c54-a539-9bd807e1c7e5" />
 
 ---
+## Resultados
+
+<img width="1491" height="243" alt="image" src="https://github.com/user-attachments/assets/ff403d8d-4b8f-48c1-a533-d13473550c61" />
+
+---
+## Queries
+
+<img width="1668" height="264" alt="image" src="https://github.com/user-attachments/assets/79e82f08-10d9-40e9-8415-5956476ca036" />
+
+---
 
 ### O que foi avaliado?
 
