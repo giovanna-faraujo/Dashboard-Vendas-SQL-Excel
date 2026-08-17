@@ -31,12 +31,14 @@ A análise é uma visão multifacetada da performance do funil de vendas, focada
 3.  **Performance Geográfica e Operacional:** Vendas segmentadas pelos `Estados que mais venderam`, `Marcas que mais venderam` e performance individual de `Lojas`.
 4.  **Comportamento do Usuário:** Mapeamento dos `Dias da semana com maior número de visitas ao site` para otimizar campanhas de marketing.
 
+---
 ### Problema de Negócio Identificado
 
 O principal problema resolvido é a **fragmentação de dados e a falta de *insights* operacionais**.
 
 O dashboard permite a gestão a **correlacionar as métricas do topo do funil** (Leads/Visitas) **com as métricas do fundo** (Receita/Ticket Médio). Por exemplo, é possível identificar se os estados com alta receita também possuem alta conversão, ou se o baixo desempenho em um mês específico foi causado por queda no volume de leads ou na taxa de conversão.
 
+---
 ### Métricas (KPIs) Importantes
 
 | Métrica | Relevância |
