@@ -8,6 +8,8 @@
 
 Este projeto demonstra a capacidade de realizar a **extração, transformação e análise de dados (ETL/E) de ponta a ponta**, com foco em Business Intelligence (BI) para as áreas de Vendas e Marketing. Os dados foram extraídos via consultas SQL e analisados em um dashboard de resultados no Microsoft Excel.
 
+<img width="1491" height="779" alt="image" src="https://github.com/user-attachments/assets/82f8b820-abc0-4c54-a539-9bd807e1c7e5" />
+
 ---
 
 ### O que foi avaliado?
