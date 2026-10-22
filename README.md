@@ -1,63 +1,102 @@
-# Análise de Performance de Vendas e Marketing
+# Análise de Desempenho de Vendas e Marketing
 
-[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-[![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/pt-br/microsoft-365/excel)
-[![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=database&logoColor=white)](https://www.microsoft.com/pt-br/sql-server)
+[![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)](https://www.microsoft.com/pt-br/microsoft-365/excel)
+[![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge\&logo=database\&logoColor=white)](https://www.microsoft.com/pt-br/sql-server)
 
-## Visão Geral
+## Visão geral
 
-Este projeto demonstra a capacidade de realizar a **extração, transformação e análise de dados (ETL/E) de ponta a ponta**, com foco em Business Intelligence (BI) para as áreas de Vendas e Marketing. Os dados foram extraídos via consultas SQL e analisados em um dashboard de resultados no Microsoft Excel.
+Neste projeto, utilizei **SQL e Microsoft Excel** para organizar e analisar dados de vendas e marketing, reunindo as principais informações em um dashboard.
 
-<img width="1491" height="779" alt="image" src="https://github.com/user-attachments/assets/82f8b820-abc0-4c54-a539-9bd807e1c7e5" />
+O objetivo foi facilitar o acompanhamento dos resultados e entender melhor o desempenho das vendas, identificando tendências e oportunidades de melhoria.
 
----
-### Resultados
+A análise considera indicadores como **receita, quantidade de vendas, taxa de conversão, ticket médio e desempenho por região, marca e loja**.
 
-<img width="1491" height="243" alt="image" src="https://github.com/user-attachments/assets/ff403d8d-4b8f-48c1-a533-d13473550c61" />
-
----
-### Queries
-
-<img width="1668" height="264" alt="image" src="https://github.com/user-attachments/assets/79e82f08-10d9-40e9-8415-5956476ca036" />
+<img width="1491" height="779" alt="Dashboard de análise de vendas e marketing" src="https://github.com/user-attachments/assets/82f8b820-abc0-4c54-a539-9bd807e1c7e5" />
 
 ---
 
-### O que foi avaliado?
+## O que foi analisado?
 
-A análise é uma visão multifacetada da performance do funil de vendas, focada em:
+O dashboard reúne informações que ajudam a entender os resultados comerciais e o comportamento dos visitantes do site.
 
-1.  **Funil de Vendas e Conversão:** Acompanhamento mensal de `Leads`, `Vendas` e o cálculo da `Taxa de Conversão`.
-2.  **Performance Financeira:** Evolução da `Receita` e do `Ticket Médio` mês a mês.
-3.  **Performance Geográfica e Operacional:** Vendas segmentadas pelos `Estados que mais venderam`, `Marcas que mais venderam` e performance individual de `Lojas`.
-4.  **Comportamento do Usuário:** Mapeamento dos `Dias da semana com maior número de visitas ao site` para otimizar campanhas de marketing.
-
----
-### Problema de Negócio Identificado
-
-O principal problema resolvido é a **fragmentação de dados e a falta de *insights* operacionais**.
-
-O dashboard permite a gestão a **correlacionar as métricas do topo do funil** (Leads/Visitas) **com as métricas do fundo** (Receita/Ticket Médio). Por exemplo, é possível identificar se os estados com alta receita também possuem alta conversão, ou se o baixo desempenho em um mês específico foi causado por queda no volume de leads ou na taxa de conversão.
-
----
-### Métricas (KPIs) Importantes
-
-| Métrica | Relevância |
-| :--- | :--- |
-| **Conversão (%)** | Indica a eficiência do processo de vendas (quantos leads viram clientes). |
-| **Ticket Médio (R$)** | Métrica crucial de rentabilidade, que segmentada por mês/loja, revela tendências de preço e mix de produtos. |
-| **Receita (R$) Mês a Mês** | Acompanhamento do crescimento e das metas de faturamento. |
-| **Vendas por Estado/Marca/Loja** | Permite o foco de recursos e a replicação de estratégias de sucesso nas lojas de melhor desempenho. |
+| Indicador               | O que permite analisar                                                    |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **Leads e vendas**      | Quantas pessoas demonstraram interesse e quantas vendas foram realizadas. |
+| **Taxa de conversão**   | A proporção de leads que se transformaram em vendas.                      |
+| **Receita mensal**      | A evolução do valor das vendas ao longo dos meses.                        |
+| **Ticket médio**        | O valor médio de cada venda realizada.                                    |
+| **Vendas por estado**   | Quais regiões apresentam maior volume de vendas.                          |
+| **Vendas por marca**    | Quais marcas tiveram maior participação nas vendas.                       |
+| **Desempenho por loja** | Comparação dos resultados entre diferentes lojas.                         |
+| **Visitas ao site**     | Quais dias da semana registraram mais acessos.                            |
 
 ---
 
-### Detalhes Técnicos
+## Como o projeto foi desenvolvido
 
-* **Ferramentas:** Microsoft Excel (Análise e Visualização) e SQL (Extração de Dados).
-* **Base de Dados:** Dados tabulares de Vendas e Leads.
-* **Habilidade SQL Destacada:** O projeto envolveu a extração da base de dados (que gerou o arquivo `Dashboard de vendas.xlsx - Resultados.csv`), demonstrando proficiência na criação de consultas complexas (JOINs, GROUP BY, Funções Agregadas) para consolidar KPIs para a análise final.
+O trabalho envolveu a consulta, organização e apresentação dos dados para facilitar sua análise.
+
+1. **Consulta dos dados:** utilização de SQL para obter informações da base de vendas.
+2. **Organização:** preparação dos dados para análise no Microsoft Excel.
+3. **Definição dos indicadores:** seleção das métricas mais importantes para acompanhar os resultados.
+4. **Criação do dashboard:** apresentação dos indicadores por meio de gráficos e tabelas.
+5. **Análise:** comparação dos resultados para identificar padrões e possíveis oportunidades de melhoria.
+
+### Consultas SQL
+
+As consultas SQL foram utilizadas para extrair informações da base de dados e apoiar a construção da análise.
+
+<img width="1668" height="264" alt="Consultas SQL utilizadas no projeto" src="https://github.com/user-attachments/assets/79e82f08-10d9-40e9-8415-5956476ca036" />
 
 ---
 
-### Nota de Autoria
+## Resultados e aplicações
 
-Os conhecimentos de extração de dados aplicados neste projeto foram adquiridos no curso **SQL para Análise de Dados: Do básico ao avançado (Udemy)**. O dashboard foi desenvolvido como prática e material de portfólio para demonstrar as habilidades de Data Analytics.
+O dashboard reúne diferentes indicadores em uma única visualização, facilitando a comparação dos resultados de vendas e marketing.
+
+Com essas informações, é possível investigar questões como:
+
+* Quais meses apresentaram maior receita?
+* Quais estados, marcas e lojas tiveram mais vendas?
+* A quantidade de leads acompanha o crescimento das vendas?
+* Quais dias da semana recebem mais visitas ao site?
+* Como o ticket médio varia ao longo dos meses?
+
+Essas análises podem ajudar uma empresa a **acompanhar seu desempenho, identificar mudanças nos resultados e tomar decisões com base em dados**.
+
+<img width="1491" height="243" alt="Indicadores e resultados da análise de vendas" src="https://github.com/user-attachments/assets/ff403d8d-4b8f-48c1-a533-d13473550c61" />
+
+---
+
+## Ferramentas e tecnologias utilizadas
+
+| Ferramenta          | Aplicação no projeto                                                       |
+| ------------------- | -------------------------------------------------------------------------- |
+| **SQL**             | Consulta e extração dos dados utilizados na análise.                       |
+| **Microsoft Excel** | Organização dos dados, criação de gráficos e desenvolvimento do dashboard. |
+| **CSV**             | Armazenamento dos resultados extraídos para utilização na análise.         |
+
+---
+
+## Principais aprendizados
+
+Com este projeto, pude praticar diferentes etapas de uma análise de dados, desde a consulta das informações até a apresentação dos resultados.
+
+Os principais conhecimentos trabalhados foram:
+
+* Utilização de SQL para consultar dados.
+* Organização de informações para análise.
+* Criação e acompanhamento de indicadores de desempenho (KPIs).
+* Desenvolvimento de dashboards no Excel.
+* Comparação de resultados e identificação de tendências.
+* Apresentação de informações de forma clara e visual.
+
+**O principal aprendizado foi entender como transformar dados de vendas em informações organizadas que ajudam a acompanhar resultados e apoiar decisões.**
+
+---
+
+## Sobre o projeto
+
+Este projeto foi desenvolvido como atividade prática de estudo e portfólio, utilizando conhecimentos adquiridos no curso **SQL para Análise de Dados: Do básico ao avançado**, disponível na Udemy.
+
+O objetivo é demonstrar minha aplicação de SQL, Excel e conceitos de análise de dados em um cenário de vendas e marketing.
